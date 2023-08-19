@@ -1,0 +1,14 @@
+{
+  "name": "piknik.bunda",
+  "version": "1.0.0",
+  "description": "piknik.bunda for UKM",
+  "main": "index.html",
+  "author": "zaininijar@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
+  }
+}
